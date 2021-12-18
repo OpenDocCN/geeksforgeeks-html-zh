@@ -5,7 +5,7 @@
 **HTML DOM 输入图像表单属性**用于返回对包含输入图像字段的表单的引用。它是一个只读属性，在成功时返回一个表单对象。
 **语法:**
 
-```
+```html
 imageObject.form.id
 ```
 
@@ -16,7 +16,7 @@ imageObject.form.id
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

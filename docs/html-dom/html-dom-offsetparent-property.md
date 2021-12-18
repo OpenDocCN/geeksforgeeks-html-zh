@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 object.offsetParent;
 
 ```
@@ -15,7 +15,7 @@ object.offsetParent;
 
 **示例 1:** 本示例返回 offsetParent 属性。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -65,7 +65,7 @@ object.offsetParent;
 
 **示例 2:** 本示例使用 display 属性隐藏 offsetParent 值。
 
-```
+```html
 
 <!DOCTYPE html>
 <html>

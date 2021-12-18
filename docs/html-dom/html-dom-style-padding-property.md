@@ -14,13 +14,13 @@
 
 *   获取属性值:
 
-    ```
+    ```html
     object.style.padding
     ```
 
 *   要设置属性值:
 
-    ```
+    ```html
     object.style.padding = "%|length|initial|inherit"
     ```
 
@@ -37,7 +37,7 @@
 
 **示例 1:为< div >元素设置填充{ 30px }:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -100,7 +100,7 @@
 
     **示例 2:为< div >元素设置填充{ 100 px 50px:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -159,7 +159,7 @@
 
     **示例 3:为< div >元素设置填充{ 10px 20px 50px:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -220,7 +220,7 @@
 
     **示例 4:为< div >元素设置填充{ 100px 10px 20px 40px:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 

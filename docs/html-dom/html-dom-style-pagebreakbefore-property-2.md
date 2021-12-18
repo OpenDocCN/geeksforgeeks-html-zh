@@ -7,7 +7,7 @@ Style page breakbefore 属性不影响绝对定位的元素。
 
 **语法:**
 
-```
+```html
 object.style.pageBreakBefore
 ```
 
@@ -32,7 +32,7 @@ object.style.pageBreakBefore
 
 **示例:在 id="footer"** 的< p >元素前设置分页符
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

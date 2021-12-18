@@ -9,13 +9,13 @@ padding 属性在元素的边框内插入用户想要的空间。
 
 *   获取属性:
 
-    ```
+    ```html
     object.style.paddingBottom
     ```
 
 *   要设置属性值:
 
-    ```
+    ```html
     object.style.paddingBottom = "%|length|initial|inherit"
     ```
 
@@ -32,7 +32,7 @@ padding 属性在元素的边框内插入用户想要的空间。
 
 **示例:设置< div >元素的底部填充。**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

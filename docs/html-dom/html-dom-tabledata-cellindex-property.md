@@ -8,7 +8,7 @@
 
 *   它返回单元格索引属性。
 
-    ```
+    ```html
     tabledataObject.cellIndex 
     ```
 
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 

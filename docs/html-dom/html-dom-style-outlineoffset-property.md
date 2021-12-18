@@ -8,13 +8,13 @@
 
 *   去拿财产
 
-```
+```html
 object.style.outlineOffset
 ```
 
 *   设置属性
 
-```
+```html
 object.style.outlineOffset = "length|initial|inherit"
 ```
 
@@ -36,7 +36,7 @@ object.style.outlineOffset = "length|initial|inherit"
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

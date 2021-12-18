@@ -7,7 +7,7 @@
 **文档. cookie** 方法返回一个字符串，该字符串包含当前文档的所有 cookie(键=值对)的分号分隔列表。
 **语法:**
 
-```
+```html
 document.cookie
 ```
 
@@ -15,7 +15,7 @@ document.cookie
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,7 +61,7 @@ document.cookie
 
 **语法:**
 
-```
+```html
 document.cookie = NewCookie
 ```
 
@@ -69,7 +69,7 @@ document.cookie = NewCookie
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

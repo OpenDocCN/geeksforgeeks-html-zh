@@ -7,13 +7,13 @@ HTML DOM 中的**样式 outlineStyle 属性**用于设置或返回元素周围�
 
 *   它用于返回 outlineStyle 属性。
 
-    ```
+    ```html
     object.style.outlineStyle
     ```
 
     *   It is used to set the outlineStyle property.
 
-    ```
+    ```html
     object.style.outlineStyle = value
     ```
 
@@ -27,7 +27,7 @@ HTML DOM 中的**样式 outlineStyle 属性**用于设置或返回元素周围�
 
     **例 1:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -73,7 +73,7 @@ HTML DOM 中的**样式 outlineStyle 属性**用于设置或返回元素周围�
 
     **例 2:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 

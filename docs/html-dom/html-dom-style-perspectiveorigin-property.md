@@ -8,13 +8,13 @@ HTML DOM 中的 **perspectiveOrigin** 属性用于描述基于 x 轴和 y 轴的
 
 *   它返回透视原点属性。
 
-    ```
+    ```html
     object.style.perspectiveOrigin
     ```
 
 *   它用于设置透视原点属性。
 
-    ```
+    ```html
     object.style.perspectiveOrigin = "x-axis y-axis|initial|inherit"
     ```
 
@@ -39,7 +39,7 @@ HTML DOM 中的 **perspectiveOrigin** 属性用于描述基于 x 轴和 y 轴的
 
 **例 1:** 用于设置 DOM 样式的 perspectiveOrigin 属性。
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 
@@ -120,7 +120,7 @@ HTML DOM 中的 **perspectiveOrigin** 属性用于描述基于 x 轴和 y 轴的
 
 **例 2:** 用于设置 DOM 样式的 perspectiveOrigin 属性。
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 

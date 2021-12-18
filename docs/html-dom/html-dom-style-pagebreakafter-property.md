@@ -8,13 +8,13 @@ Style**page breakafter**属性不影响绝对定位的元素。
 **语法:**
 要获取属性:
 
-```
+```html
 object.style.pageBreakAfter
 ```
 
 要设置属性，请执行以下操作:
 
-```
+```html
 object.style.pageBreakAfter = "auto|always|avoid|emptystring|left|
 right|initial|inherit"
 ```
@@ -36,7 +36,7 @@ right|initial|inherit"
 
 **示例 1:在 id="footer"** 的< p >元素后设置分页符
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

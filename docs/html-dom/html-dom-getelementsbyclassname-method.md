@@ -6,7 +6,7 @@ Javascript 中的 **getElementsByClassName()** 方法返回一个对象，该对
 
 **语法:**
 
-```
+```html
 document.getElementsByClassName(classnames);
 ```
 
@@ -18,7 +18,7 @@ document.getElementsByClassName(classnames);
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +72,7 @@ document . getelementsbyclassname()方法
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -8,13 +8,13 @@ HTML DOM 中的 Style width 属性用于设置或返回元素的宽度，元素�
 
 *   用于返回宽度属性:
 
-    ```
+    ```html
     object.style.width
     ```
 
 *   用于设置宽度属性:
 
-    ```
+    ```html
     object.style.width = "auto|length|%|initial|inherit"
     ```
 
@@ -30,7 +30,7 @@ HTML DOM 中的 Style width 属性用于设置或返回元素的宽度，元素�
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -77,7 +77,7 @@ HTML DOM 中的 Style width 属性用于设置或返回元素的宽度，元素�
 
     **例 2:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 

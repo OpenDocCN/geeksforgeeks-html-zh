@@ -9,13 +9,13 @@
 
 *   获取属性:
 
-    ```
+    ```html
     object.style.listStyleType
     ```
 
 *   设置属性:
 
-    ```
+    ```html
     object.style.listStyleType = value"
     ```
 
@@ -33,7 +33,7 @@
 
 **示例:将列表项标记类型更改为“下阿尔法”。**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

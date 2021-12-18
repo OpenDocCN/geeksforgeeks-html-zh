@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```html
 var rect = div.getBoundingClientRect();
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

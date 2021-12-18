@@ -9,13 +9,13 @@ Style**page breakinside**属性不影响绝对定位的元素。
 
 *   获取属性:
 
-    ```
+    ```html
     object.style.pageBreakInside
     ```
 
 *   设置属性:
 
-    ```
+    ```html
     object.style.pageBreakInside = "auto|avoid|initial|inherit"
     ```
 
@@ -32,7 +32,7 @@ Style**page breakinside**属性不影响绝对定位的元素。
 
 **示例:避免在 id="footer"** 的< p >元素中出现分页符
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -9,13 +9,13 @@
 
 *   它返回延迟属性。
 
-    ```
+    ```html
     scriptObject.defer
     ```
 
 *   用于设置延迟属性
 
-    ```
+    ```html
     scriptObject.defer = true|false
     ```
 
@@ -28,7 +28,7 @@
 
 **示例:**本示例返回延迟属性。
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 

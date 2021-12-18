@@ -7,13 +7,13 @@
 
 *   它用于返回 borderLeftColor 属性。
 
-```
+```html
 object.style.borderLeftColor
 ```
 
 *   它用于返回 borderLeftColor 属性。
 
-```
+```html
 object.style.borderLeftColor = "color|transparent|initial|
 inherit"
 ```
@@ -24,7 +24,7 @@ inherit"
 *   **颜色:**指定对应元素的边框颜色。黑色是默认颜色。
     *   **语法:**
 
-```
+```html
 borderLeftColor = "red"
 ```
 
@@ -32,7 +32,7 @@ borderLeftColor = "red"
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -83,7 +83,7 @@ borderLeftColor = "red"
 
 *   **语法:**
 
-```
+```html
 borderLeftColor = "yellow"
 ```
 
@@ -91,7 +91,7 @@ borderLeftColor = "yellow"
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -142,7 +142,7 @@ borderLeftColor = "yellow"
 *   **透明:**将对应元素的边框颜色设置为透明。
     *   **语法:**
 
-```
+```html
 borderLeftColor = "transparent"
 ```
 
@@ -150,7 +150,7 @@ borderLeftColor = "transparent"
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

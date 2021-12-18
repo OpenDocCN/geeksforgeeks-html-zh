@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```html
 document.hasfocus();
 
 ```
@@ -19,7 +19,7 @@ document.hasfocus();
 
 **示例 1:** 本示例说明文档是否有焦点。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <title>
@@ -62,7 +62,7 @@ document.hasfocus();
 
 **示例 2:** 该示例说明了基于文档是否有焦点来改变标题的背景颜色。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

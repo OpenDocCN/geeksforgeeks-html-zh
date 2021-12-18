@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```html
 var element = document.createElement("elementName");
 
 ```
@@ -17,7 +17,7 @@ var element = document.createElement("elementName");
 
 **输入:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -67,7 +67,7 @@ var element = document.createElement("elementName");
 **示例 2:本示例说明如何创建一个< p >元素并将其附加到一个< div >元素。** 
 **输入:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
