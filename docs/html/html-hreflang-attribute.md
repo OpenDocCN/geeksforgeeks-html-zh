@@ -5,7 +5,7 @@
 **HTML hreflanging 属性**用于指定链接文档的语言。它仅在设置了 href 属性时使用。
 **语法:**
 
-```
+```html
 <element hreflang="language_code"> 
 ```
 
@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 context.rotate(angle)
 ```
 
@@ -16,7 +16,7 @@ context.rotate(angle)
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 
@@ -51,7 +51,7 @@ context.rotate(angle)
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 

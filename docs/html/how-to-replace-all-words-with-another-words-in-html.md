@@ -10,7 +10,7 @@ JavaScript **replace()** 方法用于替换字符串或整个字符串中出现�
 
 **语法:**
 
-```
+```html
 string.replace(valueToBeReplaced, newValue)
 ```
 
@@ -20,7 +20,7 @@ string.replace(valueToBeReplaced, newValue)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ string.replace(valueToBeReplaced, newValue)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -120,7 +120,7 @@ string.replace(valueToBeReplaced, newValue)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -172,7 +172,7 @@ string.replace(valueToBeReplaced, newValue)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

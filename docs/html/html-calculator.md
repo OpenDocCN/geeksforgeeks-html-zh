@@ -11,7 +11,7 @@
 
     **HTML 代码:**
 
-    ```
+    ```html
     <html>
        <head>
           <script>

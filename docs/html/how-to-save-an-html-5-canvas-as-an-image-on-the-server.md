@@ -12,7 +12,7 @@
 
 **第一步:**将画布转换为图像的 HTML 代码。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -106,13 +106,13 @@
 
 **第三步:**使用 canvas.toDataURL()方法将图像转换为 URL 格式。
 
-```
+```html
 var dataURL = canvas.toDataURL();
 ```
 
 **步骤 4:** 通过 Ajax 将转换后的 URL 格式发送到您的服务器。
 
-```
+```html
 $.ajax({
     type: "POST",
     url: "script.php",
@@ -126,7 +126,7 @@ $.ajax({
 
 **第五步:**这段 php 代码会将图像保存到服务器中。
 
-```
+```html
 <?php  
 
 // Requires php5  

@@ -6,7 +6,7 @@ HTML 中的<figurecaption>标记用于为文档中的图形元素设置标题。
 
 **语法:**
 
-```
+```html
 <figcaption> Figure caption </figcaption>
 ```
 
@@ -14,7 +14,7 @@ HTML 中的<figurecaption>标记用于为文档中的图形元素设置标题。
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <html>
@@ -47,7 +47,7 @@ HTML 中的<figurecaption>标记用于为文档中的图形元素设置标题。
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <html>

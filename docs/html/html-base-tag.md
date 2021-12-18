@@ -12,7 +12,7 @@ HTML 基本标记用于为相对链接指定一个基本 URI 或网址。该网�
 
 **语法:** :
 
-```
+```html
 <base href = "SAMPLE_URL">
 ```
 
@@ -20,7 +20,7 @@ HTML 基本标记用于为相对链接指定一个基本 URI 或网址。该网�
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>

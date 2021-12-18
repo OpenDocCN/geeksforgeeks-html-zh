@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 <element aria-labelledby =""> Content </element >
 ```
 
@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -65,7 +65,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -104,7 +104,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -145,7 +145,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <div role="dialog" aria-labelledby="dialogheader">
     <dialog id="dialogheader">Choose a File</dialog>
     A Computer Science Portal
@@ -157,7 +157,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <p>The articles are reviewed by reviewers and then 
     <dfn id="placebo">placebo</dfn>, published.
       <span role="definition" aria-labelledby="placebo"> 
@@ -170,7 +170,7 @@ The reviewers basically check for correctness and basic plagiarism.</span>
 
 ## 超文本标记语言
 
-```
+```html
 <dl>
     <dt id="Geeks">Geeks</dt>
     <dd role="definition" aria-labelledby="Geeks">
@@ -195,7 +195,7 @@ The reviewers basically check for correctness and basic plagiarism.</span>
 
 ## 超文本标记语言
 
-```
+```html
 <div role="menubar">
     <div role="menuitem" aria-haspopup="true" id="fileMenu">File</div>
     <div role="menu" aria-labelledby="fileMenu">

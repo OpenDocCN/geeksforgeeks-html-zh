@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 var heightVal = canvas.height;
 canvas.height = heightVal;
 ```
@@ -15,7 +15,7 @@ canvas.height = heightVal;
 
 **示例 1:** 高度属性设置为 300
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -62,7 +62,7 @@ canvas.height = heightVal;
 
 **示例 2:** 未提供高度属性
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

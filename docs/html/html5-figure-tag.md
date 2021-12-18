@@ -9,7 +9,7 @@ HTML 中的
 
 **语法:**
 
-```
+```html
 <figure> Image content... </figure>
 ```
 
@@ -22,7 +22,7 @@ HTML 中的
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <html>

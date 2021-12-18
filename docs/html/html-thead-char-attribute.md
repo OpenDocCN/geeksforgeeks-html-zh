@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 <thead char="character">
 ```
 
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
     <head> 

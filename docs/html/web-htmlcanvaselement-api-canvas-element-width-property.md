@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 var widthVal = canvas.width;
 canvas.width = widthVal;
 ```
@@ -15,7 +15,7 @@ canvas.width = widthVal;
 
 **示例 1:** 宽度属性设置为 500
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -62,7 +62,7 @@ canvas.width = widthVal;
 
 **示例 2:** 未提供宽度属性
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

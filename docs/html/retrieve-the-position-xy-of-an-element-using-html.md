@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```html
 <!-- HTML program to get (x, y) coordinate 
 of an element relative to the viewport -->
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ of an element relative to the viewport -->
 
 **示例 2:** 在本例中，将指针移动到文档上以获取元素的位置。
 
-```
+```html
 <!-- HTML program to show (x, y) of an 
 element by dragging mouse over it -->
 <!DOCTYPE html>

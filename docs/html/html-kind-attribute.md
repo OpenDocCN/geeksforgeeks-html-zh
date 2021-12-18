@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 <track src="subtitles_en.vtt" kind="subtitles" srclang="en">
 ```
 
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

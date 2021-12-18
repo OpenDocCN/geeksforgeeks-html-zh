@@ -9,7 +9,7 @@
 **HTML < hr >颜色属性**用于指定水平规则的颜色。HTML 5 不支持。
 **语法:**
 
-```
+```html
 <Hr color= "color_name | hex_number | rgb_number"> 
 ```
 
@@ -23,7 +23,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

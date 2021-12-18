@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <div class="toggle">
     <div class="custom-control custom-switch">
       <input type="checkbox"
@@ -32,7 +32,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <style>
         .toggle,
            {

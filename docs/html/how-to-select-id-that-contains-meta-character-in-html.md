@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```html
  /  $  [  ]  {  }  |  *
 ```
 
@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```html
  $.escapeSelector( selector ) 
 ```
 
@@ -24,7 +24,7 @@
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,7 +68,7 @@
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

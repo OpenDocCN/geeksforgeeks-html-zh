@@ -5,7 +5,7 @@
 HTML 中的<rt>标签用于定义 ruby 注释的解释，是一个小文本，附带主文本。这种注释在日本出版物中使用。这个标签在 HTML5 中是新的。
 **语法:**</rt> 
 
-```
+```html
 <rt> Explaination... </rt>
 ```
 
@@ -13,7 +13,7 @@ HTML 中的<rt>标签用于定义 ruby 注释的解释，是一个小文本，�
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -39,7 +39,7 @@ HTML 中的<rt>标签用于定义 ruby 注释的解释，是一个小文本，�
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

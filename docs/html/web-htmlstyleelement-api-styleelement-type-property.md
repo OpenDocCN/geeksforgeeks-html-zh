@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 getType = style.type;
 ```
 
 **示例:**获取类型属性。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

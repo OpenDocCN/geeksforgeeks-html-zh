@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 label = element.accessKeyLabel
 ```
 
@@ -14,7 +14,7 @@ label = element.accessKeyLabel
 
 **示例:**高度属性设置为 300
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

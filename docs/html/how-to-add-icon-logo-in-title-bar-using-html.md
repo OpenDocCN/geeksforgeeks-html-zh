@@ -9,13 +9,13 @@
 
 **语法:**
 
-```
+```html
 <link rel="icon" href="icon_path" type="image/icon type">
 ```
 
 **示例:**
 
-```
+```html
 <!-- HTML code to add icon in the title bar -->
 <!DOCTYPE html>
 <html>

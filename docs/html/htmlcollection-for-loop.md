@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```html
     for (item of iterable) {
       // code to be executed
     }
@@ -20,7 +20,7 @@
 
     **示例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -57,7 +57,7 @@
 
     **语法:**
 
-    ```
+    ```html
     Array.from(collection).forEach(function (element) {
             console.log(element)
           });
@@ -65,7 +65,7 @@
 
     **示例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -102,7 +102,7 @@
 
     **语法:**
 
-    ```
+    ```html
     for (let i = 0; i < collection.length; i++) {
             console.log(collection[i]);
           }
@@ -110,7 +110,7 @@
 
     **示例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 

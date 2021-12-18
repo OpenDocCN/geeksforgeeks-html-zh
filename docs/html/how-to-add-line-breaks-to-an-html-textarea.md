@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -55,13 +55,13 @@
 **输出:**
 **无断行代码:**
 
-```
+```html
 Geeks for geeks. Geeks for geeks. Geeks for geeks. Geeks for geeks.
 ```
 
 **断行代码:**
 
-```
+```html
 Geeks for geeks. 
 Geeks for geeks. 
 Geeks for geeks. 

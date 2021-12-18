@@ -5,7 +5,7 @@
 **HTML <正文> vlink 属性**用于指定文档中被访问链接的颜色。
 **语法:**
 
-```
+```html
 <body vlink="color_name | hex_number | rgb_number">
 ```
 
@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

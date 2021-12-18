@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```html
     <li value="number">list items </li>
     ```
 
@@ -16,7 +16,7 @@
 
     **示例 1:** 本示例使用< li >值属性创建项目列表。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -53,7 +53,7 @@
 
     **示例 2:** 本示例使用< li >值属性创建项目列表。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
         <head>
