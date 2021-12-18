@@ -6,15 +6,15 @@
 
 **语法:**
 
-```
+```html
 Strict-Transport-Security: max-age=<expire-time>
 ```
 
-```
+```html
 Strict-Transport-Security: max-age=<expire-time>; includeSubDomains
 ```
 
-```
+```html
 Strict-Transport-Security: max-age=<expire-time>; preload
 ```
 
@@ -28,13 +28,13 @@ Strict-Transport-Security: max-age=<expire-time>; preload
 
 **示例:**
 
-```
+```html
 Strict-Transport-Security: max-age=3600; includeSubDomains
 ```
 
 所有网页和子域将是 HTTPS 的最大年龄为 1 小时。这将阻止对无法通过 HTTPS 提供服务的页面或子域的访问。
 
-```
+```html
 Strict-Transport-Security: max-age=7200; includeSubDomains; preload
 
 ```

@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Allow-Methods: <method>, <method>, ...
 
 ```
 
 运筹学
 
-```
+```html
 Access-Control-Allow-Methods: *
 
 ```
@@ -25,12 +25,12 @@ Access-Control-Allow-Methods: *
 
 **示例:**
 
-```
+```html
 Access-Control-Allow-Methods: POST, GET, OPTIONS 
 
 ```
 
-```
+```html
 Access-Control-Allow-Methods: *
 
 ```

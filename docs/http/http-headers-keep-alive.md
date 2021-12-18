@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Keep-Alive: parameters
 ```
 
@@ -16,7 +16,7 @@ Keep-Alive: parameters
 
 **示例:**在本例中，连接头必须设置为保持活动状态。
 
-```
+```html
 HTTP/1.1 200 OK
 Connection: Keep-Alive
 Content-Encoding: gzip

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Proxy-Authenticate:<type> realm=<realm>
 ```
 
@@ -17,13 +17,13 @@ Proxy-Authenticate:<type> realm=<realm>
 
 **例:**
 
-```
+```html
 Proxy-Authenticate: Basic
 ```
 
 基本身份验证类型接受用户名和密码来验证身份验证。
 
-```
+```html
 Proxy-Authenticate: Basic realm="Access to Geeksforgeeks website"
 ```
 

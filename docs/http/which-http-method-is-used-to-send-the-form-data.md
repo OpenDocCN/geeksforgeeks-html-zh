@@ -21,7 +21,7 @@ HTTP 代表超文本传输协议。它用于客户端和服务器之间的通信
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -52,7 +52,7 @@ HTTP 代表超文本传输协议。它用于客户端和服务器之间的通信
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

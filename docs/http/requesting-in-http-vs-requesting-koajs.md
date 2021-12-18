@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 var http = require("http");
 ```
 
@@ -18,7 +18,7 @@ var http = require("http");
 
 **语法:**
 
-```
+```html
 const server = http.createServer().listen(port)
 ```
 
@@ -30,7 +30,7 @@ const server = http.createServer().listen(port)
 
 **示例 1:文件名:index.js**
 
-```
+```html
 // Node.js program to create  
 // http server  
 
@@ -57,7 +57,7 @@ const server = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```html
 node index.js
 ```
 
@@ -71,7 +71,7 @@ node index.js
 
 为了使用 Koa 模块，我们需要安装 NPM(节点包管理器)和以下模块(在 cmd 上)。
 
-```
+```html
 >> npm init // Creates package.json file
 >> npm install koa --save //  Installs express module
 >> npm i koa -s // OR 
@@ -82,7 +82,7 @@ node index.js
 
 **语法:**
 
-```
+```html
 var koa = require("koa"); // Importing koa module
 ```
 
@@ -90,13 +90,13 @@ var koa = require("koa"); // Importing koa module
 
 **语法:**
 
-```
+```html
 const app = new koa();  // Creating koa application
 ```
 
 **发送和侦听响应:**它与客户端和服务器通信请求和响应。它需要 PORT < *号* >和 IP < *号* >进行通信。
 
-```
+```html
 app.listen(PORT, IP, Callback);
 ```
 
@@ -112,7 +112,7 @@ app.listen(PORT, IP, Callback);
 
 **示例 2:文件名:index.js**
 
-```
+```html
 // Node.js program to create server  
 // with help of Koa module
 
@@ -140,7 +140,7 @@ console.log("Server started at port", PORT);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```html
 node index.js
 ```
 

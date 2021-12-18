@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```html
 Last-Modified: <day-name>, <day> <month> <year> <hour>:<minute>:<second> GMT
 ```
 
@@ -30,7 +30,7 @@ Last-Modified: <day-name>, <day> <month> <year> <hour>:<minute>:<second> GMT
 
 **示例:**
 
-```
+```html
 Last-Modified: Tue, 15 Oct 2019 12:45:26 GMT
 ```
 

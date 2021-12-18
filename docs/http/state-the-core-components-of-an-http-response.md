@@ -28,7 +28,7 @@ HTTP 响应整体如下图所示:
 
 **状态行:**状态行的示例如下:
 
-```
+```html
 HTTP/1.1 200 OK
 ```
 
@@ -42,7 +42,7 @@ HTTP/1.1 200 OK
 
 服务器可以根据需要发送任意多的邮件头。标头作为由冒号( : )分隔的键值对发送。虽然服务器可以根据需要发送任意多的报头，但最流行的响应报头是*内容长度、内容类型、日期、服务器、Set-Cookie* 、**、**、*等。*
 
-```
+```html
 Date: Thu, 16 Jan 2016 08:16:18 GMT
 Server: IBM_CICS_Transaction_Server/3.1.0(zOS)
 Content-type: image/jpg

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 If-Unmodified-Since: <day-name>, <day> <month> <year>
 <hour>:<minute>:<second> GMT 
 ```
@@ -30,7 +30,7 @@ If-Unmodified-Since: <day-name>, <day> <month> <year>
 
 *   在通知服务器它自 2004 年 2 月 10 日(星期五)以来没有被修改的标题下面，提到的时间是 06:20:00，如果是这样，那么客户端的请求将继续。
 
-```
+```html
 If-Unmodified-Since: Fri, 10 Feb 2004 06:20:00 GMT
 ```
 

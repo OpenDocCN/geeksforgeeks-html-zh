@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Clear-Site-Data: "cache"|"cookies"|"storage"|"executionContexts"|"*"
 ```
 
@@ -24,13 +24,13 @@ Clear-Site-Data: "cache"|"cookies"|"storage"|"executionContexts"|"*"
 
 *   In this example, the header wants to delete **cache** , [T3】 cookie 【T4], **storage** and **execution content** data.
 
-    ```
+    ```html
     Clear-Site-Data: "cache", "cookies", "storage", "executionContents"
     ```
 
 *   In this example, the header wants to delete all the data.
 
-    ```
+    ```html
     Clear-Site-Data: " * "
     ```
 

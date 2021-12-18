@@ -14,7 +14,7 @@
 
 **在 IIS 中配置写:**
 
-```
+```html
 <httpProtocol>
   <customHeaders>
       <add name="X-Frame-Options" value="sameorigin"/>
@@ -24,7 +24,7 @@
 
 **用于配置阿帕奇:**
 
-```
+```html
 Header always set X-Frame-Options "sameorigin"
 ```
 

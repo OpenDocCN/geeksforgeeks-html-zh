@@ -6,11 +6,11 @@
 
 **语法:**
 
-```
+```html
 Alt-Svc: clear
 ```
 
-```
+```html
 Alt-Svc: <protocol-id>=<alt-authority>; ma=<max-age>; persist=1
 ```
 
@@ -24,11 +24,11 @@ Alt-Svc: <protocol-id>=<alt-authority>; ma=<max-age>; persist=1
 
 **示例:**
 
-*   ```
+*   ```html
     Alt-Svc: h2=":425"; ma=2585900; persist=1
     ```
 
-*   ```
+*   ```html
     Alt-Svc: h2=":485"; ma=592000; 
 
     ```

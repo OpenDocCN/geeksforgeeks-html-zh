@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Referer: <url>
 ```
 
@@ -20,13 +20,13 @@ Referer: <url>
 
 *   在本例中，geeksforgeeks.org 是上一个网页的地址。
 
-    ```
+    ```html
     Referer: https://www.geeksforgeeks.org/
     ```
 
 *   在本例中，google.com 是上一个网页的地址。
 
-    ```
+    ```html
     Referer: https://www.google.com/
     ```
 

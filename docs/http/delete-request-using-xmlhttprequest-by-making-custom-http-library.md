@@ -31,7 +31,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +55,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 function easyHTTP() {
   // Initialising new XMLHttpRequest method.
   this.http = new XMLHttpRequest();
@@ -97,7 +97,7 @@ easyHTTP.prototype.delete
 
 ## java 描述语言
 
-```html
+```htmlhtml
 // Instantiate easyHTTP
 const http = new easyHTTP();
 

@@ -6,7 +6,7 @@ HTTP 功能-策略是响应类型的头。如今，我们的大多数网络浏�
 
 **语法:**
 
-```
+```html
 Feature-Policy:  <directive> <allow-list>
 
 ```
@@ -47,14 +47,14 @@ Feature-Policy:  <directive> <allow-list>
 
 *   考虑一个使用麦克风和摄像头进行视频会议的网站。因此，在这种情况下，HTTP 功能头将是–
 
-```
+```html
 Feature-Policy: microphone 'self'; camera 'self'
 
 ```
 
 *   让我们考虑另一个例子，一个 web 应用程序需要知道你的位置来为你提供一些特定的服务。这些服务包括但不限于出租车预订、送餐等。因此，在这种情况下，HTTP 功能头可以是–
 
-```
+```html
 Feature-Policy: geolocation 'self'
 
 ```

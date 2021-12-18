@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Max-Age: <delta-seconds>
 ```
 
@@ -20,13 +20,13 @@ Access-Control-Max-Age: <delta-seconds>
 
 *   在本例中，预检请求的结果会被缓存 200 秒。
 
-    ```
+    ```html
     Access-Control-Max-Age: 200
     ```
 
 *   在本例中，不允许缓存结果。
 
-    ```
+    ```html
     Access-Control-Max-Age: -1
     ```
 

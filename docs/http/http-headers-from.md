@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 From: <email>
 ```
 
@@ -18,11 +18,11 @@ From: <email>
 
 **例:**
 
-```
+```html
 From: careers@geeksforgeeks.org
 ```
 
-```
+```html
 From: no-reply-contribute@geeksforgeeks.org
 ```
 

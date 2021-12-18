@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Set-Cookie: <cookie-name>=<cookie-value> | Expires=<date> 
                | Max-Age=<non-zero-digit> | Domain=<domain-value>
                | Path=<path-value> | SameSite=Strict|Lax|none
@@ -27,13 +27,13 @@ Set-Cookie: <cookie-name>=<cookie-value> | Expires=<date>
 
 *   当用户关闭系统时，这种类型的 cookie 被删除。这种类型的 cookie 称为会话 cookie。
 
-    ```
+    ```html
     Set-Cookie: sessionId=38afes7a8
     ```
 
 *   永久饼干在某个特定日期过期
 
-    ```
+    ```html
     set-cookie: 1P_JAR=2019-10-24-18; expires=…in=.google.com; SameSite=none
     ```
 

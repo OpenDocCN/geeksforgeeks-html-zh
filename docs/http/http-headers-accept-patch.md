@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Accept-Patch: media types
 ```
 
@@ -16,13 +16,13 @@ Accept-Patch: media types
 
 *   该示例显示了一个支持补丁的服务器，通常使用两种基于补丁的文档格式
 
-    ```
+    ```html
     Accept-Patch: application/example, text/example
     ```
 
 *   此示例显示了一个服务器，其支持的格式设置为 HTTP-charset 参数。
 
-    ```
+    ```html
     Accept-Patch: text/example;charset=utf-8
     ```
 

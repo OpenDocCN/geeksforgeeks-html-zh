@@ -10,7 +10,7 @@
 
 *   **Syntax for processing data in the main body:**
 
-```
+```html
 Content Disposition : inline 
 Content Disposition : attachment
 Content Disposition : attachment ; filename = "file_name.html"
@@ -19,7 +19,7 @@ Content Disposition : attachment ; filename = "file_name.html"
 
 *   **Syntax for handling multi-part/form data:**
 
-```
+```html
 Content-Disposition : form-data
 Content-Disposition : form-data; name="field_value"
 Content-Disposition : form-data; name="field_value"; filename="file_name.html"
@@ -47,24 +47,24 @@ Content-Disposition : form-data; name="field_value"; filename="file_name.html"
 
 **示例:**以下示例摘自 RFC 6266 和 RFC 7578。
 
-```
+```html
 content-disposition: form-data; name="field1"
 
 ```
 
-```
+```html
  content-disposition: form-data; name="_charset_"
 
 ```
 
-```
+```html
 Content-Disposition: attachment;
 filename="EURO rates";
 filename*=utf-8''%e2%82%ac%20rates
 
 ```
 
-```
+```html
  Content-Disposition: inline ; filename=example.html
 
 ```

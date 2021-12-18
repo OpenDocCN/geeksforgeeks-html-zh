@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Authorization: <type> <credentials>
 ```
 
@@ -17,7 +17,7 @@ Authorization: <type> <credentials>
 
 **例:**
 
-*   ```
+*   ```html
     Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
     ```
 

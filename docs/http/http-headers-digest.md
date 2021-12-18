@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Digest:<digest-algorithm>=<digest-value>
 ```
 
@@ -19,13 +19,13 @@ Digest:<digest-algorithm>=<digest-value>
 
 *   It provides the sha-256 algorithm for resources, and also provides the summary value.
 
-    ```
+    ```html
     Digest: sha-256=nOJRJgeeksforgeeksN3OWDUo9DBPE=
     ```
 
 *   It provides the sha-512 algorithm for resources, and also provides the summary value. In addition, it also provides UNIX summation algorithms affected by conflicts.
 
-    ```
+    ```html
     Digest: sha-512=\vdtgeeksforgeeks8nOJRJN3OWDDBPE=, unixsum=69
     ```
 

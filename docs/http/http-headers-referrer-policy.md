@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 Referrer-Policy : no-referrer
 Referrer-Policy : no-referrer-when-downgrade
 Referrer-Policy : origin
@@ -34,14 +34,14 @@ Referrer-Policy : unsafe-url
 
 *   **None-Referral**
 
-```
+```html
 Navigation website : https://notexample.com/page.html (or any other website)
 Referrer : no referrer sent
 ```
 
 *   **None-referrer-pawn-demotion**
 
-```
+```html
 Navigation website : https://not.example.com/ 
 Referrer : https://example.com/page.html
 -------------------------------------------
@@ -53,7 +53,7 @@ Referrer : no referrer sent
 
 *   **Strict-origin**
 
-```
+```html
 Navigation Website : https://not.example.com
 Referrer : https://example.com/.
 ---------------------------------------------

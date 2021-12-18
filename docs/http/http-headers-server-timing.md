@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```html
 Server-Timing: metricsname| metricsvalue | metricsdescription
 ```
 
@@ -21,25 +21,25 @@ Server-Timing: metricsname| metricsvalue | metricsdescription
 
 *   此示例显示了单个指标。
 
-```
+```html
 Server-Timing: cdn-cache
 ```
 
 *   此示例显示了值为的单个指标。
 
-```
+```html
 Server-Timing: edge; dur=33
 ```
 
 *   此示例显示了带有描述的单个指标。
 
-```
+```html
 Server-Timing: cdn-cache; desc=HIT
 ```
 
 *   此示例显示了具有描述和值的双重指标。
 
-```
+```html
 Server-Timing: cdn-cache; desc=HIT, edge; dur=1
 ```
 

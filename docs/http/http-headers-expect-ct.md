@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Expect-CT max-age=<age>, enforce, report-uri="<uri>"
 ```
 
@@ -22,13 +22,13 @@ Expect-CT max-age=<age>, enforce, report-uri="<uri>"
 
 *   在本例中，证书透明度实施 12 小时，并向 geeksforgeeks.org 报告。
 
-    ```
+    ```html
     Expect-CT: max-age=43200, enforce, report-uri="https://geeksforgeeks.org/report"
     ```
 
 *   In this example, the Certificate Transparency is enforced for an hour.
 
-    ```
+    ```html
     Expect-CT: max-age=3600, enforce
     ```
 

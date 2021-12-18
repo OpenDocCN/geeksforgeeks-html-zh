@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Server: <product>
 ```
 
@@ -19,13 +19,13 @@ Server: <product>
 
 *   在本例中，服务器使用的软件名称是 Cloudflare。
 
-    ```
+    ```html
     server: cloudflare
     ```
 
 *   在这个例子中，服务器名是 Akamai 资源优化器，它也显示了带有这个的[服务器定时头](https://www.geeksforgeeks.org/http-headers-server-timing/)。
 
-    ```
+    ```html
     server: Akamai Resource Optimizer
     server-timing: cdn-cache; desc=HIT
     server-timing: edge; dur=1

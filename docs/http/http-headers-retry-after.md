@@ -12,7 +12,7 @@ HTTP 头用于通过 HTTP 请求或响应传递附加信息。HTTP **重试-在*
 
 **语法:**
 
-```
+```html
 Retry-After: <http-date>
 Retry-After: <delay-seconds>
 
@@ -27,13 +27,13 @@ Retry-After: <delay-seconds>
 
 *   With the date instruction, the client can retry the request within a specified time after the date.
 
-    ```
+    ```html
     Retry-After: Sun, 27 Oct 2019 09:45:00 GMT
     ```
 
 *   Use the delay-second instruction, after which the specified second client can retry the request.
 
-    ```
+    ```html
     Retry-After: 180
     ```
 

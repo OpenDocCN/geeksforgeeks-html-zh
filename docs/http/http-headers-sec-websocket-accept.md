@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 Sec-WebSocket-Accept: <hashed key>
 ```
 
@@ -20,7 +20,7 @@ Sec-WebSocket-Accept: <hashed key>
 
 **示例:**在此示例中，如果传入的连接是到客户端的 WebSocket 连接，服务器将发送 101 个响应代码。
 
-```
+```html
 101 Switching Protocols
 Upgrade: websocket
 Connection: Upgrade

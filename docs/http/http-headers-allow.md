@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Allow: <http-methods>
 ```
 
@@ -18,13 +18,13 @@ Allow: <http-methods>
 
 *   当只有一种方法时。POST 方法用于将实体提交给指定的资源，这通常会导致服务器上的状态发生变化。
 
-    ```
+    ```html
     Allow: POST
     ```
 
 *   当有多种方法时。PATCH 方法用于在 DELETE 方法删除指定资源时对资源应用部分修改。
 
-    ```
+    ```html
     Allow: PATCH, DELETE
     ```
 

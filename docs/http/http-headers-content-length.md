@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Content-Length: <length>
 ```
 
@@ -16,11 +16,11 @@ Content-Length: <length>
 
 **示例:**
 
-```
+```html
 content-length: 6553
 ```
 
-```
+```html
 content-length: 54138
 ```
 

@@ -6,7 +6,7 @@ HTTP 头用于客户端和服务器之间的通信。HTTP 头允许客户端和�
 
 **语法:**
 
-```
+```html
 X-Forwarded-For: <client>, <proxy>
 ```
 
@@ -21,13 +21,13 @@ X-Forwarded-For: <client>, <proxy>
 
 *   这是一个请求必须通过多个代理的例子。
 
-    ```
+    ```html
     X-Forwarded-For: 103.0.113.165, 60.91.3.17, 120.192.338.678
     ```
 
 *   这是一个请求必须通过一个代理的例子。
 
-    ```
+    ```html
     X-Forwarded-For: fe80::780b:cd:b91:5b6d%6
     ```
 

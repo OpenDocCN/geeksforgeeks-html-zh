@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Proxy-Authorization: <type> <credentials>
 ```
 
@@ -17,7 +17,7 @@ Proxy-Authorization: <type> <credentials>
 
 **例:**
 
-```
+```html
 Proxy-Authorization: Basic 6dc7dbfe151046f2be8fc383a9abb147
 ```
 

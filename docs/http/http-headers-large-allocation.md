@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Large-Allocation: <megabytes>
 ```
 
@@ -32,13 +32,13 @@ Large-Allocation: <megabytes>
 
 *   在这个例子中，分配的大小是不确定的。
 
-```
+```html
 Large-Allocation: 0
 ```
 
 *   在这个例子中，将要执行的分配的大小是 2000 兆字节。
 
-```
+```html
 Large-Allocation: 2000
 ```
 

@@ -15,7 +15,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
  <meta name="description" 
 content="It contains the description for your web application">
 ```
@@ -28,7 +28,7 @@ content="It contains the description for your web application">
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html lang="en">
 
 <!--head tag starts-->

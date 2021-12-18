@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Expect: 100-continue
 ```
 
@@ -18,7 +18,7 @@ Expect: 100-continue
 
 **例:**
 
-```
+```html
 PUT /demo/program HTTP/1.1
 Host: original.sample.com
 Content-Type: video/h264

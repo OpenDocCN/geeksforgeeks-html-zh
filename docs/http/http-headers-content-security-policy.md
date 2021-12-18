@@ -16,55 +16,55 @@
 
 *   **child-src:** 它控制嵌套浏览上下文和请求的创建，这些内容和请求填充了工作人员的框架。
 
-    ```
+    ```html
     Content-Security-Policy: child-src https://example.com/
     ```
 
 *   **default-src:** 考虑到输入的值，它用作策略的默认源列表，并作为其他提取指令的后备。
 
-    ```
+    ```html
     Content-Security-Policy: default-src 'self'
     ```
 
 *   **frame-src:** 限制为嵌套浏览上下文加载的 URL。
 
-    ```
+    ```html
     Content-Security-Policy: frame-src https://example.com/
     ```
 
 *   **manifest-src:** 它控制资源的各种元素可能被加载的网址。
 
-    ```
+    ```html
     Content-Security-Policy: manifest-src https://example.com/
     ```
 
 *   **对象-src:** 用于限制可以将插件内容加载到应用程序中的网址。
 
-    ```
+    ```html
     Content-Security-Policy: object-src https://example.com/
     ```
 
 *   **connect-src:** 用于控制可以使用脚本接口加载到应用程序中的 URL。
 
-    ```
+    ```html
     Content-Security-Policy: connect-src https://example.com/
     ```
 
 *   **字体-src:** 它控制可以将字体加载到应用程序中的网址。
 
-    ```
+    ```html
     Content-Security-Policy: font-src https://example.com/
     ```
 
 *   **img-src:** 它控制可以将图像加载到应用程序中的网址。
 
-    ```
+    ```html
     Content-Security-Policy: img-src https://example.com/
     ```
 
 *   **media-src:** 它控制可以将音频、视频和相关文本轨道资源加载到应用程序中的 URL。
 
-    ```
+    ```html
     Content-Security-Policy: media-src https://example.com/
     ```
 
@@ -76,7 +76,7 @@
 
 *   **插件类型:**它限制加载的资源，以限制插件嵌入文档的可能性。
 
-    ```
+    ```html
     Content-Security-Policy: plugin-types application/pdf
     ```
 
@@ -91,7 +91,7 @@
 
 文章中的所有例子都取自万维网联盟的 CSP 三级草案。
 
-```
+```html
 Content-Security-Policy: script-src https://cdn.example.com/scripts/; object-src 'none'
 Content-Security-Policy: script-src 'self'; report-to csp-reporting-endpoint
 Content-Security-Policy: prefetch-src https://example.com/

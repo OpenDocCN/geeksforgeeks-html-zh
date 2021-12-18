@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Transfer-Encoding: chunked | compress | deflate | gzip | identity
 ```
 
@@ -22,7 +22,7 @@ Transfer-Encoding: chunked | compress | deflate | gzip | identity
 
 **示例:**当服务器向客户端发送大量的系列数据时，这个头的块编码非常有用。在请求完成之前，响应的总大小可能未知。假设数据库查询中有大量数据，分块响应如下所示
 
-```
+```html
 HTTP/1.0 200 OK 
 Content-Type: text/plain 
 Transfer-Encoding: chunked

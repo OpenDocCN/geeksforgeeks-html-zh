@@ -6,7 +6,7 @@ HTTP 头用于通过 HTTP 响应或 HTTP 请求传递附加信息。 **X-Frame-O
 
 **语法:**
 
-```
+```html
 X-Frame-Options: directive
 ```
 
@@ -21,19 +21,19 @@ X-Frame-Options: directive
 *   **在阿帕奇:**
     要将 X-Frame-Options 发送到所有相同原件的页面，请将其设置为您的站点配置。
 
-```
+```html
 Header always set X-Frame-Options "sameorigin"
 ```
 
 *   打开 httpd.conf 文件并添加以下代码来拒绝该权限
 
-```
+```html
 header always set x-frame-options "DENY"
 ```
 
 *   **在 Nginx 上:**打开服务器配置文件，添加以下代码，只允许来自同一来源
 
-```
+```html
 add_header x-frame-options "SAMEORIGIN" always;
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Host: <host>:<port>
 ```
 
@@ -19,13 +19,13 @@ Host: <host>:<port>
 
     *   GeeksforGeeks cdn 页面的主机。
 
-        ```
+        ```html
         Host: www.cdn.geeksforgeeks.org
         ```
 
     *   极客主机主页。
 
-        ```
+        ```html
         Host: www.geeksforgeeks.org
         ```
 

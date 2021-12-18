@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Set-Cookie2: <cookie-name>=<cookie-value> | Comment=<value> | Domain=<domain-value> | 
 Max-Age=<non-zero-digit> | Path=<path-value> | Discard | Secure 
 ```
@@ -25,7 +25,7 @@ Max-Age=<non-zero-digit> | Path=<path-value> | Discard | Secure
 
 **示例:**您可能在网络检查元素的标头部分找不到这种类型的设置 cookie，因为它已被 **RFC 6265** 淘汰。请避免使用。
 
-```
+```html
 Set-Cookie2:Student="David"; Max-Age=12885; Path="/asdf"; Secure
 ```
 

@@ -15,11 +15,11 @@
 
 ****语法:****
 
-```
+```html
 If-None-Match: "entity_tag"
 ```
 
-```
+```html
 If-None-Match: *
 ```
 
@@ -32,11 +32,11 @@ If-None-Match: *
 
 ****示例:****
 
-*   ```
+*   ```html
     If-None-Match:"2780-5524acffbda80-gzip"
     ```
 
-*   ```
+*   ```html
     If-None-Match:*
     ```
 

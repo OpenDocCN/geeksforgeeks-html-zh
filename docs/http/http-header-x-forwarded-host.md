@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 X-Forwarded-Host: <host>
 ```
 
@@ -19,13 +19,13 @@ X-Forwarded-Host: <host>
 
 *   在这个例子中，被访问的网站是从提到的主机网站转发的。
 
-    ```
+    ```html
     X-Forwarded-Host: www.example-cdn.com
     ```
 
 *   在这个例子中转发的主机是 geeksforgeeks cdn 页面。
 
-    ```
+    ```html
     X-Forwarded-Host: www.cdn.geeksforgeeks.org
     ```
 

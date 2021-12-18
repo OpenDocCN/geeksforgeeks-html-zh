@@ -29,7 +29,7 @@
 *   首先创建一个名为 src 的文件夹，即我们的 java 程序的源文件夹，并在其中创建一个名为 geeks 的文件夹，它将包含元数据信息，并在 geeks 中再创建一个名为 httpPackage 的文件夹，它只是我们将放置 java 代码的包的名称。
 *   直接在极客内部创建 module-info.java，如下所示:
 
-    ```html
+    ```htmlhtml
     module geeks
     {
         requires jdk.incubator.httpclient;
@@ -38,7 +38,7 @@
 
 *   在名为 Geeksforgeeks.java 的 httpPackage 文件夹中创建 java 类，实现如下:
 
-    ```html
+    ```htmlhtml
     package httpPackage;
     import java.io.IOException;
     import java.net.URI;
@@ -85,19 +85,19 @@
 
 *   为了编译我们的 java 代码，我们必须转到 src 文件夹并执行下面的命令:
 
-    ```html
+    ```htmlhtml
     javac --module-source-path src-d-out -m geeks
     ```
 
 *   To run our java code, we have to execute below command:
 
-    ```html
+    ```htmlhtml
     java --module-path out -m geeks/httpPackage.Geeksforgeeks
     ```
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     WARNING: using incubator modules jdk.incubator.httpclient
     Status of operation performed:200
 
@@ -105,7 +105,7 @@
 
 *   From the above program, we can send one HTTP GET request through synchronous send() method and handle the response as String. Suppose we don’t want to wait until the completion of the HTTP request and want to send another HTTP request in parallel and also we want to save the response into one file. In the above example, we are using the synchronous feature which will block until it has completed. We can make it asynchronous as well as we can save the response into the file.
 
-    ```html
+    ```htmlhtml
     import java.nio.file.Paths;
     import java.io.IOException;
     import java.net.URI;
@@ -156,7 +156,7 @@
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     WARNING: using incubator modules jdk.incubator.httpclient
     Status of operation performed:200
     Response body: It will return the source code of https://www.geeksforgeeks.org/about/ page. As the response is too big i am not adding in it here.

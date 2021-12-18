@@ -8,14 +8,14 @@ TAO 头可以是通配符(*)，允许所有源同时访问与定时相关的信�
 
 **语法:**
 
-```
+```html
 Timing-Allow-Origin: * 
 
 ```
 
 运筹学
 
-```
+```html
 Timing-Allow-Origin: <origin> [, <origin>]*
 
 ```
@@ -30,14 +30,14 @@ Timing-Allow-Origin: <origin> [, <origin>]*
 
 *   当所有资源都被允许在通配符即“*”的帮助下访问各种定时资源时:
 
-```
+```html
 Timing-Allow-Origin: * 
 
 ```
 
 *   仅允许“https://www.geeksforgeeks.org”访问计时资源:
 
-```
+```html
 Timing-Allow-Origin: https://www.geeksforgeeks.org 
 
 ```

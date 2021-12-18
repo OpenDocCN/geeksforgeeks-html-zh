@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```html
 Save-Data: <sd-token>
 ```
 
@@ -27,7 +27,7 @@ Save-Data: <sd-token>
 
 *   **请求标题:**
 
-```
+```html
 GET /googlelogo.png HTTP/1.0 
 Host: www.google.com
 Save-Data: on
@@ -35,7 +35,7 @@ Save-Data: on
 
 *   **响应标题:**
 
-```
+```html
 HTTP/1.0 200 OK 
 accept-ranges: bytes 
 cache-control: private, max-age=31536000 
@@ -55,14 +55,14 @@ x-xss-protection: 0
 
 *   **请求标题:**
 
-```
+```html
 GET /googlelogo.png HTTP/1.0 
 Host: www.google.com
 ```
 
 *   **响应标题:**
 
-```
+```html
 HTTP/1.0 200 OK 
 accept-ranges: bytes 
 cache-control: private, max-age=31536000 

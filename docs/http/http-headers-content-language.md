@@ -8,14 +8,14 @@
 
 *   仅指定一种语言时
 
-    ```
+    ```html
     Content-Language: <language-tag>
 
     ```
 
 *   指定多种语言时
 
-    ```
+    ```html
     Content-Language: <language-tag>, <language-tag>, <language-tag>
 
     ```
@@ -28,13 +28,13 @@
 
 *   它说说英语的人是页面的目标受众。
 
-    ```
+    ```html
     Content-Language: en
     ```
 
 *   它说说德语和英语的人是页面的目标受众。
 
-    ```
+    ```html
     Content-Language: de, en
     ```
 

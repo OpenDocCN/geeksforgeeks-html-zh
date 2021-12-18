@@ -8,13 +8,13 @@
 
 例如，攻击者可能会侵入一个证书颁发机构，然后滥用网络来源的证书。为了降低这种风险，HTTPS web 服务器提供了一个“固定”公钥哈希列表，这些哈希在后续连接的给定时间内有效，在该有效时间内，客户端希望服务器在其证书链中使用一个或多个公钥。如果没有，屏幕上会显示一条错误消息。
 
-```
+```html
 Header type: Response header
 ```
 
 **语法:**
 
-```
+```html
 Public-Key-Pins: pin-sha256 = "pin-value"; 
                  max-age = expire-time; 
                  includeSubDomains; 
@@ -35,7 +35,7 @@ Public-Key-Pins: pin-sha256 = "pin-value";
 
 **例**
 
-```
+```html
 Public-Key-Pins: 
   pin-sha256 = "cUPcTAZWKaASuYWhhneY3oBAkE3h2+soZS7sWs="; 
   pin-sha256 = "M8HztCzM3elS5P4hhyBNf6lHkmjAHKhpGPWE="; 

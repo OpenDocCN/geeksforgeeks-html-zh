@@ -8,7 +8,7 @@
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +31,7 @@
 
 ## getmethod.php
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -55,7 +55,7 @@
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@
 
 ## postmethod.php
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

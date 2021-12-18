@@ -12,7 +12,7 @@
 
 **文件名:index.html**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +41,7 @@
 
 **文件名:library.html**
 
-```html
+```htmlhtml
 // ES6 class
 class EasyHTTP {
 
@@ -69,7 +69,7 @@ class EasyHTTP {
 
 **文件名:app.html**
 
-```html
+```htmlhtml
 // Instantiating new EasyHTTP class
 const http = new EasyHTTP;
 // User Data

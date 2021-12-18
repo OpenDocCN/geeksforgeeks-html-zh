@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Warning: <3-DIGIT-warn-code> <SP warn-agent> <SP warn-text> [< SP warn-date>]
 ```
 
@@ -42,12 +42,12 @@ Warning: <3-DIGIT-warn-code> <SP warn-agent> <SP warn-text> [< SP warn-date>]
 
 **示例**:
 
-```
+```html
 Warning: 246 - "Embedded Warning" "sat, 05 Oct 2019 10:47:47 GMT"
 
 ```
 
-```
+```html
 Warning: 199 -"Miscellaneous warning" "sun, 18 Oct 2015 07:28:00 GMT"
 
 ```

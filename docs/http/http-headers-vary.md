@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 Vary: *
 ```
 
 运筹学
 
-```
+```html
 Vary: <header-name>
 ```
 
@@ -23,11 +23,11 @@ Vary: <header-name>
 
 **示例:**
 
-```
+```html
 Vary: Accept-Encoding
 ```
 
-```
+```html
 Vary: User-Agent
 ```
 

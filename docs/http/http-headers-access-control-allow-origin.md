@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Allow-Origin: * | <origin> | null
 ```
 
@@ -20,13 +20,13 @@ Access-Control-Allow-Origin: * | <origin> | null
 
 *   这个例子告诉浏览器允许任何来源的代码访问资源。
 
-    ```
+    ```html
     access-control-allow-origin: *
     ```
 
 *   A response that tells the browser to allow requesting code from the origin https://www.geeksforgeeks.org to access a resource will include the following:
 
-    ```
+    ```html
     access-control-allow-origin:*https://www.geeksforgeeks.org*
     ```
 

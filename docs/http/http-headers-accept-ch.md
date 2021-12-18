@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Accept-CH: client hints
 ```
 
@@ -22,13 +22,13 @@ Accept-CH: client hints
 
 *   当使用一个客户端提示时。在本例中，视口宽度是客户端提示，它以 CSS 像素表示布局视口宽度。
 
-    ```
+    ```html
     Accept-CH: Viewport-Width
     ```
 
 *   当使用多个客户端提示时。在本例中，视口宽度和宽度是客户端提示。
 
-    ```
+    ```html
     Accept-CH: Viewport-Width, Width
     ```
 

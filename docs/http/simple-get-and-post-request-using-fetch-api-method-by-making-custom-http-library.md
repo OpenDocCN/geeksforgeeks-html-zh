@@ -23,7 +23,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +52,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 class EasyHTTP {
 
     // Make an HTTP GET Request 
@@ -94,7 +94,7 @@ class EasyHTTP {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 // Instantiating EasyHTTP
 const http = new EasyHTTP;
 

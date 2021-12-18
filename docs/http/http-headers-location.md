@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Location: <url>
 ```
 
@@ -18,13 +18,13 @@ Location: <url>
 
 *   这些 URL 包括一个方案/主机，并且符合方案特定的语法和语义，这是一个**绝对 URL** :
 
-    ```
+    ```html
     Location: https://www.geeksforgeeks.org/index.php
     ```
 
 *   这些网址不包括方案或主机。必须结合原请求的网址，**相对网址** :
 
-    ```
+    ```html
     Location: /blogs/
     ```
 

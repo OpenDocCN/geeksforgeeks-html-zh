@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```html
 Cross-Origin-Resource-Policy: same-site | same-origin | cross-site
 ```
 
@@ -27,13 +27,13 @@ Cross-Origin-Resource-Policy: same-site | same-origin | cross-site
 
 *   在下面的示例中，只有浏览器识别为来自同一站点的请求才被允许读取资源。
 
-    ```
+    ```html
     Cross-Origin-Resource-Policy: same-site
     ```
 
 *   在下面的示例中，只有浏览器识别为来自同一来源的请求才被允许读取资源。
 
-    ```
+    ```html
     Cross-Origin-Resource-Policy: same-origin
     ```
 

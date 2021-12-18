@@ -10,13 +10,13 @@
 
 *   For a single algorithm:
 
-    ```
+    ```html
     Want-Digest: <algorithm>
     ```
 
 *   Add quality value syntax to multiple algorithms:
 
-    ```
+    ```html
     Want-Digest: <algorithm><q-value>, <algorithm><q-value>
     ```
 
@@ -31,13 +31,13 @@
 
 *   This example holds a single summarization algorithm, but there is no quality value of this algorithm.
 
-    ```
+    ```html
     Want-Digest: sha-512
     ```
 
 *   This example holds several summarization algorithms with the algorithm quality values.
 
-    ```
+    ```html
     Want-Digest: sha-512;q=0.55, sha-256;q=0, md5;q=1
     ```
 

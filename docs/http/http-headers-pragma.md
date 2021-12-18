@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```html
 Pragma: no-cache
 ```
 
@@ -18,7 +18,7 @@ Pragma: no-cache
 
 **示例:**
 
-```
+```html
 Pragma: no-cache
 ```
 

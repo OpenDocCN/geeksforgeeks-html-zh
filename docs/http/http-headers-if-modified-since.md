@@ -27,7 +27,7 @@
 
 **示例:**
 
-```
+```html
 If-Modified-Since: Sun, 10 May 2020 02:01:00 GMT 
 ```
 

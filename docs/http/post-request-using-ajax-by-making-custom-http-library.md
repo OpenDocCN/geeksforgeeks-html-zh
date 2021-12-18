@@ -32,7 +32,7 @@
 
 **文件名:index.html**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +57,7 @@
 
 **文件名:app.js**
 
-```html
+```htmlhtml
 // Instantiating easyHTTP
 const http = new easyHTTP;
 
@@ -85,7 +85,7 @@ http.post(
 
 **文件名:library.js**
 
-```html
+```htmlhtml
   function easyHTTP() {
 
     // Initializing new XMLHttpRequest method. 

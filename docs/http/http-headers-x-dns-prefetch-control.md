@@ -8,11 +8,11 @@ X-DNS-预取-控制是一个 HTTP 响应类型的头，它通知浏览器是否�
 
 **句法:**
 
-*   ```
+*   ```html
     X-DNS-Prefetch-Control: on
     ```
 
-*   ```
+*   ```html
     X-DNS-Prefetch-Control: off
     ```
 
@@ -25,22 +25,22 @@ X-DNS-预取-控制是一个 HTTP 响应类型的头，它通知浏览器是否�
 
 *   ****Specific hostnames force lookup:** By using the rel attribute on the **<link>** component with a link type of DNS-Prefetch, you can force the lookup of certain hostnames without providing specific anchors. In this example, the domain name “www.geeksforgeeks.org” will be pre-resolved.
 
-    ```
+    ```html
     <link rel="dns-prefetch" href="https://www.geeksforgeeks.org/">
     ```
 
     同样，链接组件用于解析主机名，但没有完整的网址，只能通过在主机名前添加双斜线:
 
-    ```
+    ```html
     <link rel="dns-prefetch" href="//www.geeksforgeeks.org/">
     ```** 
 *   ****Turn prefetching on and off:** You can also use the HTTP-Equiv parameter on the component to send the X-DNS- prefetch-control header on the server side or from a single file. Forcibly prefetching host names may help, for example, forcing pre-resolution of domain names frequently quoted by the whole website on the homepage of a website, even if they are not used on the homepage.
 
-    ```
+    ```html
     <meta http-equiv="x-dns-prefetch-control" content="off">
     ```
 
-    ```
+    ```html
     <meta http-equiv="x-dns-prefetch-control" content="on">
     ```** 
 

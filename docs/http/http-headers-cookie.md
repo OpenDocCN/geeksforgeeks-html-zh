@@ -6,19 +6,19 @@ HTTP 头用于通过 HTTP 响应或 HTTP 请求传递附加信息。cookie 是�
 
 **语法:**
 
-```
+```html
 Cookie: <cookie-list>
 ```
 
 如果是单一 cookie，语法如下:
 
-```
+```html
 Cookie: name=value
 ```
 
 如果是多个 cookies，语法如下:
 
-```
+```html
 Cookie: name=value; name=value; name=value
 ```
 
@@ -28,13 +28,13 @@ Cookie: name=value; name=value; name=value
 
 **例 1:**
 
-```
+```html
 Cookie: user=Bob
 ```
 
 **例 2:**
 
-```
+```html
 Cookie: user=Bob; age=28; csrftoken=u12t4o8tb9ee73
 ```
 

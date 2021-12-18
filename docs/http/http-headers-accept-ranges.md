@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 Accept-Ranges: bytes | none
 ```
 
@@ -21,7 +21,7 @@ Accept-Ranges: bytes | none
 
 **示例:**
 
-```
+```html
 Accept-Ranges: bytes
 ```
 

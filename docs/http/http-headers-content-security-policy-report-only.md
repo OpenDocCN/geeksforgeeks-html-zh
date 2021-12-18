@@ -6,7 +6,7 @@ HTTP **内容-安全-策略-仅报告**响应头允许网络开发人员通过�
 
 **语法:**
 
-```
+```html
 Content-Security-Policy-Report-Only: <policy-directive>
 ```
 
@@ -16,7 +16,7 @@ Content-Security-Policy-Report-Only: <policy-directive>
 
 **注意:**`report-uri`指令打算被`report-to`指令取代，`report-to`仍然不被大多数浏览器支持。因此，为了解决兼容性问题，可以同时指定`report-uri`和`report-to`，因为这不仅可以增加与当前浏览器的兼容性，还可以在浏览器获得`report-to`支持时增加向前兼容性。
 
-```
+```html
 Content–Security-Policy:  ….; report-uri
 https://written.geeksforgeeks.com; report-to groupname
 ```
@@ -27,14 +27,14 @@ https://written.geeksforgeeks.com; report-to groupname
 
 **示例:**标题的目的是报告可能发生的任何违规行为。它可以反复用于制定内容安全策略。人们可以观察他们的站点的行为，观察**违规报告**和/或**恶意软件重定向**，然后选择由`Content-Security-Policy`标题强加的适当策略。
 
-```
+```html
 Content-Security-Policy-Report-Only: default-src https:; 
 report-uri /csp-violation-report-endpoint/ 
 ```
 
 如果希望在实施策略的同时接收报告，他们可以使用带有`report-uri`指令的`Content-Security-Policy`标题。
 
-```
+```html
 Content-Security-Policy: default-src https:; 
                           report-uri /csp-violation-report-endpoint/
 ```
@@ -56,14 +56,14 @@ T3】
 
 **违规举报样本:**位于`http://geeksforgeeks.com/signup.html`的页面。下面是实现的策略，只允许来自`cdn.geeksforgeeks.com`的样式表。
 
-```
+```html
 Content-Security-Policy-Report-Only: default-src ‘none’; 
 style-src cdn.geeksforgeeks.com; report-uri /_/csp-reports
 ```
 
 *   **HTML 代码:**的 HTML 看起来是这样的:
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -81,7 +81,7 @@ style-src cdn.geeksforgeeks.com; report-uri /_/csp-reports
 
 *   **违规:**这里 CSS 只允许从 CDN 下载，但是在 HTML 代码中，浏览器会尝试从自己的本地文件加载，因为浏览器会发送以下违规。
 
-    ```
+    ```html
     {
     “csp-report”:{
     “document-uri”: “http://geeksforgeeks.com/signup.html”,

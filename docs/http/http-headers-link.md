@@ -5,7 +5,7 @@
 对于在 HTTP 头中序列化一个或多个链接，使用 **HTTP 链接头字段**。它允许服务器将感兴趣的客户端指向另一个包含所请求资源的元数据的资源。它在语义上相当于 HTML **<链接>** 元素。
 **语法:**
 
-```
+```html
 Link: <uri-reference>; param1="value1" param2="value2"
 
 ```
@@ -18,14 +18,14 @@ Link: <uri-reference>; param1="value1" param2="value2"
 
 *   这意味着在相对 URI 为**https://www.geeksforgeeks.org/.**的资源中可以获得关于所请求资源的更多信息
 
-```
+```html
 Link: <https://www.geeksforgeeks.org/>; rel="preconnect"
 
 ```
 
 *   URI 必须包含在< and >之间。所以，这不是一个好的写作方式。
 
-```
+```html
 Link:https://www.geeksforgeeks.org/; rel="preconnect"
 
 ```
@@ -34,7 +34,7 @@ Link:https://www.geeksforgeeks.org/; rel="preconnect"
 
 **示例:**
 
-```
+```html
 Link: <https://example.one.com>; rel="preconnect", 
 <https://example.two.com>; rel="preconnect", 
 <https://example.three.com>; rel="preconnect"

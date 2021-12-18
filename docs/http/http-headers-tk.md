@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Tk: !  (under construction)
 Tk: N  (not tracking)
 Tk: T  (tracking)
@@ -34,13 +34,13 @@ Tk: G  (gateway or multiple parties)
 
 *   The Tk header of a resource that claims not to follow will look like:
 
-    ```
+    ```html
     Tk: N
     ```
 
 *   The Tk header of the resource that claims to follow will look like
 
-    ```
+    ```html
     Tk: T
     ```
 

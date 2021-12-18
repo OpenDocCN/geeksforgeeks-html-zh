@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Accept-Encoding: gzip | compress | deflate | br| identity| *
 ```
 
@@ -24,11 +24,11 @@ Accept-Encoding: gzip | compress | deflate | br| identity| *
 你可以查看你的**接受编码**和**内容编码**在这个[网站](https://gtmetrix.com/)上的表现有多好。
 **例:**
 
-```
+```html
 Accept-Encoding: gzip, deflate, br
 ```
 
-```
+```html
 Accept-Encoding: br;q=1.0, gzip;q=0.6, *;q=0.1
 ```
 

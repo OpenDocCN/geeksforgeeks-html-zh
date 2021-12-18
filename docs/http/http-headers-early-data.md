@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Early-Data: 1
 ```
 
@@ -16,7 +16,7 @@ Early-Data: 1
 
 **例:**
 
-```
+```html
 GET /resource HTTP/1.0
 Host: www.geeksforgeeks.org
 Early-Data: 1

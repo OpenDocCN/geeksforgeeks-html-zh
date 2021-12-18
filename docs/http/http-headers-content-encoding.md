@@ -5,7 +5,7 @@
 **HTTP 头内容编码**用于压缩媒体类型。它通知服务器用户将支持哪种编码。它将信息发送到接受编码。服务器选择提议中的任何一个，使用它并用**内容编码**响应头通知客户端它的选择。
 **语法:**
 
-```
+```html
 Content-Encoding: gzip | compress | deflate | br| identity
 
 ```
@@ -26,7 +26,7 @@ Content-Encoding: gzip | compress | deflate | br| identity
 
 *   单次压缩:
 
-    ```
+    ```html
     Content-Encoding: gzip
     Content-Encoding: compress
 
@@ -34,7 +34,7 @@ Content-Encoding: gzip | compress | deflate | br| identity
 
     *   Multiple Compression:
 
-    ```
+    ```html
     Content-Encoding: gzip, compress
 
     ```

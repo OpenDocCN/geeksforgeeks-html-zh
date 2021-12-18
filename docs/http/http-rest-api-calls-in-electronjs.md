@@ -21,7 +21,7 @@
 **示例:**按照 [**中给出的步骤，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。还要对**包. json** 文件进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 **package . JSON:****](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/) 
 
-```html
+```htmlhtml
 {
   "name": "electron-net",
   "version": "1.0.0",
@@ -52,7 +52,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Making HTTP REST API Calls 
     using net Module in Electron
 </h3>
@@ -72,7 +72,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron');
 // Importing the net Module from electron remote
 const net = electron.remote.net;

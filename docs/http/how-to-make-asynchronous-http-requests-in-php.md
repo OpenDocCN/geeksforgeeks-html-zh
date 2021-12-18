@@ -19,13 +19,13 @@ PHP 同步服务请求。这意味着每一行代码都以脚本的同步方式�
 
 下载 Guzzle php 包。可以通过 composer 安装。
 
-```html
+```htmlhtml
 php composer.phar require guzzlehttp/guzzle:~6.0
 ```
 
 或者
 
-```html
+```htmlhtml
 composer require guzzlehttp/guzzle:~6.0
 ```
 
@@ -33,7 +33,7 @@ composer require guzzlehttp/guzzle:~6.0
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 
 require_once(__DIR__ . '/vendor/autoload.php');
@@ -87,7 +87,7 @@ print "finish/over." . PHP_EOL;
 
 **使用 HTTPlug 执行请求:**
 
-```html
+```htmlhtml
 $request = $messageFactory->createRequest(
     'GET', 'http://php-http.org');
 $promise = $client->sendAsyncRequest($request);
@@ -97,7 +97,7 @@ echo  'Non-blocking!';
 
 **等待:**从上面返回的“承诺”实现 *http\Promise\Promise* 。目前还不知道对此的反应。等待回复。
 
-```html
+```htmlhtml
 try {
   $response = $promise->wait();
 } catch (\Exception $exception) {
@@ -111,7 +111,7 @@ try {
 1.  如果请求成功，将执行一次回调。
 2.  如果请求导致错误，将执行的回调。
 
-```html
+```htmlhtml
 
 // Success Callback
 function (ResponseInterface $response) {
@@ -135,7 +135,7 @@ function (\Exception $exception) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 
 use GuzzleHttp\Promise\EachPromise;
@@ -177,7 +177,7 @@ $eachPromise->promise()->wait();
 
 **构建多线程 cURL 请求:**一般来说，我们可以处理多个请求。首先，我们触发第一个并处理响应，然后是第二个和第三个，以此类推。但是，这个过程既缓慢又耗时。但是 cURL 提供了 **curl_multi_*** 功能来处理任何 asnyc 请求。
 
-```html
+```htmlhtml
 $running = null;
 $mh = curl_multi_init();
 

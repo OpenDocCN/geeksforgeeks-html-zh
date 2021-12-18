@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Content-Location: <url>
 ```
 
@@ -18,13 +18,13 @@ Content-Location: <url>
 
 *   在本例中，index.html 是指示内容位置的网址。
 
-    ```
+    ```html
     Content-Location: /index.html
     ```
 
     *   In this example, teddy.xml is the URL which indicates the location of the content.
 
-    ```
+    ```html
     Content-Location: /teddy.xml
     ```
 

@@ -6,7 +6,7 @@
 可用于元元素。
 **语法:**
 
-```html
+```htmlhtml
 <meta http-equiv="content-type | default-style | refresh">
 ```
 
@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -10,7 +10,7 @@ HTTP 访问控制允许凭证是一个响应头。当请求的凭证模式 **Req
 
 **语法:**
 
-```
+```html
 Access-Control-Allow-Credentials: true
 ```
 
@@ -22,13 +22,13 @@ Access-Control-Allow-Credentials: true
 
 *   这是允许访问控制允许凭证。
 
-```
+```html
 Access-Control-Allow-Credentials: true
 ```
 
 *   这是使用带有凭据的 xhr。
 
-```
+```html
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://www.geeksforgeeks.org/', true); 
 xhr.withCredentials = true; 
@@ -37,7 +37,7 @@ xhr.send(null);
 
 *   这是使用带有凭据的提取。
 
-```
+```html
 fetch(url, {
   credentials: 'include'  
 })

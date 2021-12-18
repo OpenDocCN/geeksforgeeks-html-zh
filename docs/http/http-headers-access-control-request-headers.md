@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Request-Headers: header-name-1, header-name-2, ...
 ```
 
@@ -17,7 +17,7 @@ Access-Control-Request-Headers: header-name-1, header-name-2, ...
 下面的例子说明了 http 头中的**访问控制请求头**。
 **示例:**考虑以下代码从浏览器发送 XHR 请求。
 
-```
+```html
 const xhr = new XMLHttpRequest();
 
 xhr.open('POST', 'https://samplepostroute/');
@@ -32,7 +32,7 @@ xhr.send("id=100");
 
 该请求将包含内容类型和 X-PINGOTHER HTTP 头。在发送开机自检请求之前，浏览器将发送 CORS 预检请求。CORS 预检请求将包含以下标题。以这种方式，服务器被告知在随后的客户端请求中可能存在的不同报头。
 
-```
+```html
 Access-Control-Request-Headers: X-PINGOTHER, Content-Type
 ```
 

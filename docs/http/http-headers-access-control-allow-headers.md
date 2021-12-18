@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Allow-Headers: <header-name>
 ```
 
@@ -21,13 +21,13 @@ Access-Control-Allow-Headers: <header-name>
 
 *   当只有一个标题时
 
-    ```
+    ```html
     Access-Control-Allow-Headers: Proxy-Authorization
     ```
 
     *   When there are multiple headers
 
-    ```
+    ```html
     Access-Control-Allow-Headers: Proxy-Authorization, Max-Forwards
     ```
 

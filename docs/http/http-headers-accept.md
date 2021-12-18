@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Accept: <MIME_type>/<MIME_subtype> | <MIME_type>/* | */*
 ```
 
@@ -20,13 +20,13 @@ Accept: <MIME_type>/<MIME_subtype> | <MIME_type>/* | */*
 
 *   本示例接受 html 子类型的文本类型。
 
-    ```
+    ```html
     Accept: text/html
     ```
 
 *   这个例子接受任何图像子类型都不麻烦。
 
-    ```
+    ```html
     Accept: image/*
     ```
 

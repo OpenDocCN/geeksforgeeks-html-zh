@@ -6,7 +6,7 @@ HTTP 头用于客户端和服务器之间的通信。HTTP 头允许客户端和�
 
 **语法:**
 
-```
+```html
 X-Forwarded-Proto: <protocol>
 
 ```
@@ -19,7 +19,7 @@ X-Forwarded-Proto: <protocol>
 
 ## HTML
 
-```
+```html
 // X-Forwarded-Proto: originatingprotocol
 X-Forwarded-Proto: http
 ```

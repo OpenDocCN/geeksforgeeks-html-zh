@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```html
  curl --version
 ```
 
@@ -28,7 +28,7 @@
 
 **使用 cURL 的 GET 请求:** Get 请求是最常用的 HTTP 请求，因为它用于从服务器请求关于特定目标(即网站)的数据。让我们从执行一个简单的获取请求开始。
 
-```
+```html
  curl http://138.68.158.87:30954/login.php
 ```
 
@@ -38,7 +38,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,25 +93,25 @@
 
 *   **-v:** 用于获取详细输出。
 
-```
+```html
 curl http://138.68.158.87:30954/login.php -v
 ```
 
 *   **-u:** 服务器用户和密码。
 
-```
+```html
  curl -u username:password http://138.68.158.87:30954/login.php -v
 ```
 
 *   **-L:** 跟随重定向。
 
-```
+```html
 curl -u username:password -L http://138.68.158.87:30954/login.php -v
 ```
 
 *   **-X:** 指定要使用的请求命令。
 
-```
+```html
 curl -X GET http://138.68.158.87:30954/login.php -v
 ```
 
@@ -119,12 +119,12 @@ curl -X GET http://138.68.158.87:30954/login.php -v
 
 *   **-s:** 静音模式。
 
-```
+```html
 curl -u username:password -s -L http://138.68.158.87:30954/login.php -v
 ```
 
 借助 **-h** 标志，您可以根据需要深入使用不同的标志。
 
-```
+```html
 curl -h
 ```

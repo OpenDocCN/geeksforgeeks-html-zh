@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 SourceMap: <url>
 ```
 
@@ -18,13 +18,13 @@ SourceMap: <url>
 
 *   In this example, the URL mentioned points to the SourceMap file, that is, the transformation source whose reconstructed original source is to be obtained.
 
-    ```
+    ```html
     SourceMap: /geeks/gfg/file.js.map
     ```
 
 *   In this example, you may not see it, because this **x-SourceMap** has been abandoned, and the URL mentioned refers to the sourcemap file, that is, the transformation source whose reconstructed original source is to be obtained.
 
-    ```
+    ```html
     X-SourceMap: /geeks/g4g/main.js.map
     ```
 

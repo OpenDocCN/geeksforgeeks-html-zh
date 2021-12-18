@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Cache-Control: <directive> [, <directive>]*
 ```
 
@@ -32,19 +32,19 @@ Cache-Control: <directive> [, <directive>]*
 
 *   To prevent caching, the following response headers can be used:
 
-    ```
+    ```html
     Cache-Control: no-store
     ```
 
 *   To cache static assets, the following response headers can be used:
 
-    ```
+    ```html
     Cache-Control: public, max-age=604800, immutable
     ```
 
 *   To re-verify, the following response headers can be used:
 
-    ```
+    ```html
     Cache-Control: no-cache
     Cache-Control: no-cache, max-age=0
     Cache-Control: no-cache, max-age=0, stale-while-revalidate=300

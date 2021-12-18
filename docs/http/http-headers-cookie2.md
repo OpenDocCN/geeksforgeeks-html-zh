@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```html
 Cookie2: <cookie-list>
 ```
 
 在单一 cookie 的情况下，语法如下:
 
-```
+```html
 Cookie2: $Version="3"
 ```
 
 在多个 cookies 的情况下，语法如下:
 
-```
+```html
 Cookie2: name=value; name=value; name=value
 ```
 
@@ -28,7 +28,7 @@ Cookie2: name=value; name=value; name=value
 
 **例:**
 
-```
+```html
 Cookie2: $Version="3"
 ```
 

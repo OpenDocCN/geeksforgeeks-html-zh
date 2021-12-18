@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Upgrade-Insecure-Requests: 1
 ```
 
@@ -16,7 +16,7 @@ Upgrade-Insecure-Requests: 1
 
 *   客户端请求向支持升级不安全请求升级机制的服务器发出信号:
 
-    ```
+    ```html
     GET / HTTP/1.0
     Host: geeksforgeeks.org
     Upgrade-Insecure-Requests: 1
@@ -24,7 +24,7 @@ Upgrade-Insecure-Requests: 1
 
 *   服务器现在可以重定向到网站的安全版本。可以使用 **HTTP 头 Vary** ，这样该站点就不会被缓存提供给不支持升级机制的客户端:
 
-    ```
+    ```html
     Location: https://www.geeksforgeeks.org
     Vary: Upgrade-Insecure-Requests
     ```

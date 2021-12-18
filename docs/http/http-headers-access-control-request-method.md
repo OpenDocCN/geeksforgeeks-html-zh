@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Access-Control-Request-Method: <method>
 ```
 
@@ -18,11 +18,11 @@ Access-Control-Request-Method: <method>
 
 **示例:**
 
-*   ```
+*   ```html
     Access-Control-Request-Method: POST
     ```
 
-*   ```
+*   ```html
     Access-Control-Request-Method: GET, PUT
     ```
 

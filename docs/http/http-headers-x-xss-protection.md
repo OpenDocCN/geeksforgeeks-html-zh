@@ -8,7 +8,7 @@ HTTP 头用于通过 HTTP 响应或 HTTP 请求传递附加信息。HTTP 头中�
 
 **语法:**
 
-```
+```html
 X-XSS-Protection: directive
 ```
 
@@ -26,7 +26,7 @@ X-XSS-Protection: directive
 
 **示例 1:** 当页面检测到反射的跨站点脚本攻击时，阻止页面加载:
 
-```
+```html
 // It enable the protection
 X-XSS-Protection: 1; mode=block
 
@@ -36,7 +36,7 @@ X-XSS-Protection: 0
 
 **示例 2:** 这将在 appache 服务器上工作。
 
-```
+```html
 <IfModule mod_headers.c> 
   Header set X-XSS-Protection "1; mode=block" 
 </IfModule>
@@ -44,7 +44,7 @@ X-XSS-Protection: 0
 
 **示例 3:** 这将在 Nginx 服务器上工作。
 
-```
+```html
 add_header "X-XSS-Protection" "1; mode=block";
 ```
 

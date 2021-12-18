@@ -11,7 +11,7 @@
 
 **语法**
 
-```
+```html
 If-Match:<*;
 If-Match:<etag_value>, <etag_value>, ...
 ```
@@ -25,11 +25,11 @@ If-Match:<etag_value>, <etag_value>, ...
 
 **示例:**
 
-```
+```html
 If-Match: *
 ```
 
-```
+```html
 If-Match: "afyr456nfk560hfef5bhoy007dfhgfd9h"
 ```
 

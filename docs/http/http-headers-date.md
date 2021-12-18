@@ -7,7 +7,7 @@ HTTP 头用于通过 HTTP 响应或 HTTP 请求传递附加信息。日期 HTTP 
 
 **语法:**
 
-```
+```html
 Date: day-name, day month year hour:minute:second GMT
 ```
 
@@ -24,7 +24,7 @@ Date: day-name, day month year hour:minute:second GMT
 
 **示例:**
 
-```
+```html
 Date: Wed, 16 Oct 2019 07:28:00 GMT 
 ```
 

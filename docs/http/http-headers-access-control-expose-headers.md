@@ -6,11 +6,11 @@ HTTP **访问控制-公开-头**头是一个响应头，用于公开其中提到
 
 **语法:**
 
-```
+```html
 Access-Control-Expose-Headers: <header-name>
 ```
 
-```
+```html
 Access-Control-Expose-Headers: *
 ```
 
@@ -25,13 +25,13 @@ Access-Control-Expose-Headers: *
 
 *   In this example, the Accept-Language HTTP header is exposed. It can be noted that it is a non-CORS safe listing title.
 
-    ```
+    ```html
     Access-Control-Expose-Headers: Accept-Language
     ```
 
 *   In this example, the authorization HTTP header needs to be mentioned explicitly, because it can't be a normal wildcard.
 
-    ```
+    ```html
     Access-Control-Expose-Headers: *, Authorization
     ```
 

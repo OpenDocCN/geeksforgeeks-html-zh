@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 x-content-type-options: nosniff
 ```
 
@@ -16,7 +16,7 @@ x-content-type-options: nosniff
 
 **示例:**
 
-```
+```html
 x-content-type-options: nosniff
 ```
 

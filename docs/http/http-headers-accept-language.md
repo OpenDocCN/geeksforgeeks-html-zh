@@ -8,13 +8,13 @@
 
 *   这是特定的语言选择语法。
 
-    ```
+    ```html
     Accept-Language: <language>
     ```
 
 *   这种语法可以作为通配符(选择所有语言)。
 
-    ```
+    ```html
     Accept-Language: *
     ```
 
@@ -29,19 +29,19 @@
 
 *   在本例中，单个值位于美国英语的接受语言标题上。
 
-    ```
+    ```html
     accept-language: en-US
     ```
 
     *   在本例中，双精度值位于接受语言标题上，即美国的英语和加拿大的法语。
 
-    ```
+    ```html
     Accept-Language: en-US,fr-CA
     ```
 
     *   In this example single value is on Accept-Language header that is English of US with the factor weighting.
 
-    ```
+    ```html
     accept-language: en-US,en;q=0.9
     ```
 

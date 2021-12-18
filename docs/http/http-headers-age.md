@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 age: <delta-seconds>
 ```
 
@@ -16,11 +16,11 @@ age: <delta-seconds>
 
 **示例:**
 
-```
+```html
 age: 128404
 ```
 
-```
+```html
 age: 1859070
 ```
 

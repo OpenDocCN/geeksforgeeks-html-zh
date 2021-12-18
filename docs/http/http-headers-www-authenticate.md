@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```html
 WWW-Authenticate: <type> realm=<realm> realm=<realm>
 ```
 
@@ -30,11 +30,11 @@ WWW-Authenticate: <type> realm=<realm> realm=<realm>
 
 **示例:**
 
-```
+```html
 WWW-Authenticate: Basic
 ```
 
-```
+```html
 WWW-Authenticate: Basic realm="Access to the staging site", 
 charset="UTF-8"
 ```

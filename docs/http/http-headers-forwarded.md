@@ -12,7 +12,7 @@ HTTP 头允许客户端和服务器通过 HTTP 请求或 HTTP 响应传递补充
 
 **语法**:
 
-```
+```html
 Forwarded: 
 by=<identifier>;for=<identifier>;host=<host>;proto=<http | https>
 
@@ -38,20 +38,20 @@ by=<identifier>;for=<identifier>;host=<host>;proto=<http | https>
 
 以分号分隔。
 
-```
+```html
 Forwarded : by=203.0.111.42;for="192.0.3.61";proto=https; 
 ```
 
 不区分大小写。
 
-```
+```html
 FORWARDED: FOR="[2003:db4:cafs::17]:4731" 
 
 ```
 
 可以使用逗号附加多个值。
 
-```
+```html
 Forwarded: for=192.0.3.41, for=198.53.103.08 
 
 ```

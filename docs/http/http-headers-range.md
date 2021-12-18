@@ -8,19 +8,19 @@ HTTP 头用于通过 HTTP 请求或响应传递附加信息。 **HTTP 范围**�
 
 *   Get the whole document from a specific range
 
-    ```
+    ```html
     Range: <unit>=<range-start>-
     ```
 
 *   Request multiple parts
 
-    ```
+    ```html
     Range: <unit>=<range-start>-<range-end>, <range-start>-<range-end>
     ```
 
 *   Specific end part of the request document
 
-    ```
+    ```html
     Range: <unit>=-<suffix-length>
     ```
 
@@ -35,19 +35,19 @@ HTTP 头用于通过 HTTP 请求或响应传递附加信息。 **HTTP 范围**�
 
 *   Get the first 100 bytes of the file
 
-    ```
+    ```html
     Range: bytes=0-99
     ```
 
 *   Get the last 100 bytes of the file
 
-    ```
+    ```html
     Range: bytes=-100
     ```
 
 *   Multiple request ranges
 
-    ```
+    ```html
     Range: bytes=0-99, 700-799
     ```
 

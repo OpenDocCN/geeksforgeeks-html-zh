@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Origin: <scheme> "://" <hostname> ":" <port> 
 ```
 
@@ -26,13 +26,13 @@ Origin: <scheme> "://" <hostname> ":" <port>
 
 **示例:**
 
-```
+```html
 Origin: null
 ```
 
 这意味着所请求的服务没有来源。
 
-```
+```html
 Origin: https://www.geeksforgeeks.org
 ```
 

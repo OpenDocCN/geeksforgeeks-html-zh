@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 ETag : "etag-value"   (strong validation)
 ETag : W/"etag-value"  (weak validation)   
 ```
@@ -22,20 +22,20 @@ ETag : W/"etag-value"  (weak validation)
 
 *   [T0】 If-Match header: This is mainly used when multiple agents may work on the same resource, so as to prevent accidental coverage when using methods such as POST, PUT and DELETE. Here, the ETag header value of a specific resource is included in the *If-Match* header to check whether there is any change in the resource when the specified action is executed. *412 Prerequisites failed* If they do not match, an error will be displayed. If the current representation does not completely or partially match the previous request, it can also be used to abort the request.
 
-```
+```html
 ETag : "21e92a357b3434b5aa"
 If-Match : "21e92a357b3434b5aa"
 ```
 
 *   **If-none-match Header:** This header is used when the stored response of the specific website visited by the user has expired. Here, the server generates *if there is a mismatch value* for the current version, and compares it with the ETag value stored in the user's browser. If the two values match, the *304 unmodified* status code will be displayed. In this case, weak comparison must be used when comparing entity tags.
 
-```
+```html
 If-None-Match : "21e92a357b3434b5aa"
 ```
 
 **例:**
 
-```
+```html
 ETag: "21e92a357b3434b5aa"  (strong validation)
 ETag: W/"21e92a457b3434b5aa"  (weak validation)
 ```

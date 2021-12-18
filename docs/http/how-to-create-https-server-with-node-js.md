@@ -8,7 +8,7 @@
 
 **步骤 1:** 首先，我们将生成自签名证书。打开您的终端或 git bash 并运行以下命令:
 
-```html
+```htmlhtml
 openssl req -nodes -new -x509 -keyout server.key -out server.cert
 ```
 
@@ -32,7 +32,7 @@ openssl req -nodes -new -x509 -keyout server.key -out server.cert
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,13 +63,13 @@ openssl req -nodes -new -x509 -keyout server.key -out server.cert
 
 **第三步:**现在创建一个 ***app.js*** 文件。我们将使用终端中的 *npm* 初始化项目
 
-```html
+```htmlhtml
 npm init
 ```
 
 我们还将安装**来处理服务器请求，并安装 ***本体解析器*** 来从 *POST* 请求中的表单获取输入。**
 
-```html
+```htmlhtml
 npm install express
 npm install body-parser
 ```
@@ -84,7 +84,7 @@ npm install body-parser
 
 ## **app.js**
 
-```html
+```htmlhtml
 // Requiring in-built https for creating
 // https server
 const https = require("https");
@@ -140,13 +140,13 @@ https.createServer(options, app)
 
 ****步骤 5:** 使用以下命令运行**节点 app.js** 文件:**
 
-```html
+```htmlhtml
 node app.js
 ```
 
 ****现在打开浏览器，输入运行的服务器地址:****
 
-```html
+```htmlhtml
 https://localhost:3000/
 ```
 

@@ -6,15 +6,15 @@
 
 **语法:**
 
-```
+```html
 Content-Range: <unit> <range-start>-<range-end>/<size>
 ```
 
-```
+```html
 Content-Range: <unit> <range-start>-<range-end>/*
 ```
 
-```
+```html
 Content-Range: <unit> */<size>
 ```
 
@@ -27,13 +27,13 @@ Content-Range: <unit> */<size>
 
 **例:**
 
-```
+```html
 Content-Range: bytes 500-1000/65989
 ```
 
 它将范围的单位指定为字节，并将范围的起始字节指定为 500 字节，而范围的结束字节指定为 1000 字节。文档的总大小为 65989 字节。
 
-```
+```html
 Content-Range: bytes 50-1000/*
 ```
 

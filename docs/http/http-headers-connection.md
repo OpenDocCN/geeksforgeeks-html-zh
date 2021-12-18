@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Connection: keep-alive
 Connection: close
 ```
@@ -22,14 +22,14 @@ Connection: close
 
 *   这里，在下面的例子中，连接是保持活动的(即客户端希望保持它打开)，值是 100。通常，值 100 对于几乎所有场景都足够了。但是，您可以根据服务器需要在网页中传递的文件数量来增加它。
 
-    ```
+    ```html
     Keep-Alive: 100
     Connection: keep-alive
     ```
 
 *   下面的例子是一个客户端发送的请求消息，它希望连接在响应消息发送后关闭。
 
-    ```
+    ```html
     Connection: close
     ```
 

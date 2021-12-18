@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```html
 DNT:0
 DNT:1 
 ```
@@ -25,7 +25,7 @@ DNT:1
 
 ***   This is an example of W3C (World Wide Web Consortium), in which a DNT header is set to the field value–1:
 
-    ```
+    ```html
     GET /something/here HTTP/1.1
     Host: example.com
     DNT: 1
@@ -34,7 +34,7 @@ DNT:1
 
     *   The value of DNT header field can be checked by using the **navigator.donottrack** property of JavaScript.
 
-    ```
+    ```html
     console.log(navigator.doNotTrack); 
     // prints "1" if DNT is enabled; "0" 
     // if the user opted-in for tracking;

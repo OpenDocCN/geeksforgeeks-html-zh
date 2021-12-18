@@ -20,7 +20,7 @@ GET 和 POST 方法之间的区别定义如下:
 
 **语法:**
 
-```html
+```htmlhtml
 <form method="get|post">
 ```
 
@@ -30,7 +30,7 @@ GET 和 POST 方法之间的区别定义如下:
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 <body>
 <h1 style="color: green;">
@@ -58,7 +58,7 @@ GET 和 POST 方法之间的区别定义如下:
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 <body>
 <h1 style="color: green;">

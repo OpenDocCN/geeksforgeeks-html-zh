@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 TE: compress | deflate | gzip | trailers | q
 ```
 
@@ -24,13 +24,13 @@ TE: compress | deflate | gzip | trailers | q
 
 *   当使用单一指令时。
 
-    ```
+    ```html
     TE: trailers
     ```
 
 *   当使用多个指令时。
 
-    ```
+    ```html
     TE: trailers, compress; q=0.67
     ```
 

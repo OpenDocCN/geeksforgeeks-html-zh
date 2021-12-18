@@ -6,13 +6,13 @@
 
 **步骤 1:** 创建一个“ **app.js** 文件，用 npm 初始化项目。此外，将您想要传输的视频文件保存在同一文件夹中。
 
-```
+```html
 npm init
 ```
 
 **第二步:**现在安装 express，创建“**index.html**文件。
 
-```
+```html
 npm install express
 ```
 
@@ -28,7 +28,7 @@ npm install express
 
 ## app.js
 
-```
+```html
 // Requiring express for routing
 const express = require('express')
 
@@ -69,7 +69,7 @@ app.listen(3000,function(req,res){
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,7 +101,7 @@ app.listen(3000,function(req,res){
 
 **步骤 5:** 现在使用运行应用程序
 
-```
+```html
 node app.js
 ```
 
